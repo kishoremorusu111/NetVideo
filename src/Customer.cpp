@@ -21,7 +21,7 @@ std::string Customer::getName() const {
 
     return name;
 }
-
+//added comment
 // add a rental to this customer
 void Customer::addRental(const Rental& rental) {
 
