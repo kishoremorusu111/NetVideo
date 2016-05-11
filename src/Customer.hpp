@@ -25,7 +25,7 @@ public:
     void addRental(const Rental& rental);
 
     // customer rental statement
-    std::string statement() const;
+    std::string rentalstatement() const;
 
 private:
     std::string name;
